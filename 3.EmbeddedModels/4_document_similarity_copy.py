@@ -27,12 +27,3 @@ index, score = sorted(list(enumerate(scores)),key=lambda x:x[1])[-1]
 print(query)
 print(documents[index])
 print("similarity score is:", score)
-
-# # print(str(doc_vector))
-# # print(str(query_vector))
-# vec1 = np.array(doc_vector)
-# vec2 = np.array(query_vector)
-
-
-# similarity = cosine_similarity(vec1, vec2)
-# print(similarity)
