@@ -1,0 +1,48 @@
+Introduction to Langchain ====
+LC is an open-source framework for developing applications powered by LLMs
+
+Langchain Components (6)==
+- Models 
+- Prompts
+- Chain
+- Memory
+- Index
+- Agents
+
+
+= Models
+Core interface through which you interact with AI models
+Type of Model:
+-Language (LLMs) text in - text out
+-Embedding text in - vector out (Semantic Search)
+
+= Prompts
+inputs provided to LLM
+Types of Prompt:
+-Dynamic and reusable Prompt .. {}
+-Role Based .. System User
+-Few Shot .. Examples
+
+= Chains
+we can build pipelines
+
+= Indexes
+connect your application to external knowledge base such as pdf, databases, wesites etc
+
+Indexes consists of four things
+-Doc loader
+-text splitter
+-Vector store
+-retrivers
+
+= Memory
+LLM apis are stateless
+
+Types of Memory
+-ConversationBufferMemory
+-ConversationBufferWindowMemory(last n)
+-Summarizer-BasedMemory
+-Custom Memory
+
+= Agents
+has reasoning capabilities and access to tools
