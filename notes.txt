@@ -1,3 +1,5 @@
 Ways to use OpenSource Models:
 - Download locally
 - Using HF interface API
+
+new video dropping soon..
